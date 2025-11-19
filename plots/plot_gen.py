@@ -36,7 +36,6 @@ for entry in log_history:
 train_df = pd.DataFrame(training_data)
 eval_df = pd.DataFrame(eval_data)
 
-# Set a nice style for the plots
 sns.set_style("whitegrid")
 plt.rcParams.update({"font.size": 12})
 
